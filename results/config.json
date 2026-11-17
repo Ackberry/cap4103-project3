@@ -1,0 +1,181 @@
+{
+  "seed": 42,
+  "k": 1,
+  "face_weight": 0.25,
+  "k_trials": [
+    {
+      "k": 1,
+      "face_eer": 0.2058823529411765,
+      "voice_eer": 0.04411764705882351
+    },
+    {
+      "k": 2,
+      "face_eer": 0.2058823529411765,
+      "voice_eer": 0.04411764705882351
+    },
+    {
+      "k": 3,
+      "face_eer": 0.22058823529411764,
+      "voice_eer": 0.04411764705882351
+    }
+  ],
+  "weight_trials": [
+    {
+      "weight": 0.25,
+      "mean_eer": 0.02954076367389061
+    },
+    {
+      "weight": 0.5,
+      "mean_eer": 0.035087719298245605
+    },
+    {
+      "weight": 0.75,
+      "mean_eer": 0.09326625386996905
+    }
+  ],
+  "normalization_bounds": [
+    [
+      -0.690283282702908,
+      -0.020168524310272076
+    ],
+    [
+      -8.762724165650653,
+      -1.3589468241943132
+    ]
+  ],
+  "rq2_conditions": [
+    "clean",
+    "one_corner_10pct",
+    "one_corner_5pct"
+  ],
+  "mapping": [
+    {
+      "user": 0,
+      "face": "0012",
+      "voice": "28"
+    },
+    {
+      "user": 1,
+      "face": "0009",
+      "voice": "29"
+    },
+    {
+      "user": 2,
+      "face": "0004",
+      "voice": "20"
+    },
+    {
+      "user": 3,
+      "face": "0019",
+      "voice": "30"
+    },
+    {
+      "user": 4,
+      "face": "0010",
+      "voice": "8"
+    },
+    {
+      "user": 5,
+      "face": "0018",
+      "voice": "5"
+    },
+    {
+      "user": 6,
+      "face": "0001",
+      "voice": "55"
+    },
+    {
+      "user": 7,
+      "face": "0002",
+      "voice": "34"
+    },
+    {
+      "user": 8,
+      "face": "0017",
+      "voice": "4"
+    },
+    {
+      "user": 9,
+      "face": "0006",
+      "voice": "51"
+    },
+    {
+      "user": 10,
+      "face": "0014",
+      "voice": "33"
+    },
+    {
+      "user": 11,
+      "face": "0015",
+      "voice": "59"
+    },
+    {
+      "user": 12,
+      "face": "0007",
+      "voice": "56"
+    },
+    {
+      "user": 13,
+      "face": "0020",
+      "voice": "42"
+    },
+    {
+      "user": 14,
+      "face": "0013",
+      "voice": "27"
+    },
+    {
+      "user": 15,
+      "face": "0016",
+      "voice": "39"
+    },
+    {
+      "user": 16,
+      "face": "0005",
+      "voice": "50"
+    },
+    {
+      "user": 17,
+      "face": "0008",
+      "voice": "40"
+    },
+    {
+      "user": 18,
+      "face": "0022",
+      "voice": "45"
+    },
+    {
+      "user": 19,
+      "face": "0011",
+      "voice": "10"
+    }
+  ],
+  "input_sha256": {
+    "/Users/ackberry/Desktop/Fall-2026/CAP4103/PPA-3/homework2/X-68-Caltech.npy": "fe3612beb66ab25d0dfb8102775488f8838a652f2467793b58ee72dc3c146611",
+    "/Users/ackberry/Desktop/Fall-2026/CAP4103/PPA-3/homework2/y-68-Caltech.npy": "d3abf4f45269c9e9b6e47d64c7fe0a006cf06265aa20b00f48aed3469e06e438",
+    "/Users/ackberry/Desktop/Fall-2026/CAP4103/Project3/data/voice.npz": "506c34dc6df48dba7d3a03f6f992a0fb22d6c3c500a90c35ea69d832b2a48c5c"
+  },
+  "versions": {
+    "python": "3.14.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "split_counts": {
+    "face": [
+      219,
+      68,
+      88
+    ],
+    "voice": [
+      6000,
+      2000,
+      2000
+    ]
+  },
+  "paired_probe_counts": [
+    68,
+    88
+  ]
+}
